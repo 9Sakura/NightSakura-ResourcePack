@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_axe"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":101}, "model": "custom/ironaxe"},
+    {"predicate": {"custom_model_data":102}, "model": "custom/ironaxe_up"},
+    {"predicate": {"custom_model_data":103}, "model": "custom/ironaxe_end"},
+
+    {"predicate": {"custom_model_data":201}, "model": "custom/axe"},
+    {"predicate": {"custom_model_data":202}, "model": "custom/axe_up"},
+    {"predicate": {"custom_model_data":203}, "model": "custom/axe_end"},
+
+    {"predicate": {"custom_model_data":301}, "model": "custom/extensiveaxe"},
+    {"predicate": {"custom_model_data":302}, "model": "custom/extensiveaxe_up"},
+    {"predicate": {"custom_model_data":303}, "model": "custom/extensiveaxe_end"},
+
+    {"predicate": {"custom_model_data":401}, "model": "custom_item/neko_hammer"}
+  ]
+}

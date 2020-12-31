@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/torch"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":201}, "model": "custom/beamwand"},
+    {"predicate": {"custom_model_data":202}, "model": "custom/beamwand_up"},
+    {"predicate": {"custom_model_data":203}, "model": "custom/beamwand_end"},
+
+    {"predicate": {"custom_model_data":301}, "model": "custom/seasakura"},
+    {"predicate": {"custom_model_data":302}, "model": "custom/seasakura_up"},
+    {"predicate": {"custom_model_data":303}, "model": "custom/seasakura_end"}
+
+  ]
+}

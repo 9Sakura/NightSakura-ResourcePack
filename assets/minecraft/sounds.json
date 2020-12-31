@@ -1,0 +1,27 @@
+{
+	"akm.fire": {
+		"sounds": [
+			"weapons/akm"
+		]
+	},
+	"awp.fire": {
+		"sounds": [
+			"weapons/awp"
+		]
+	},
+	"awp.reload": {
+		"sounds": [
+			"weapons/awpreload"
+		]
+	},
+	"usp.fire": {
+		"sounds": [
+			"weapons/usp"
+		]
+	},
+	"deagle.fire": {
+		"sounds": [
+			"weapons/deagle"
+		]
+	}
+}

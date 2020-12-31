@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/rotten_flesh"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":101}, "model": "custom_loot/not_rotten_flesh"},
+    {"predicate": {"custom_model_data":102}, "model": "custom_loot/thin_rotten_flesh"}
+  ]
+}

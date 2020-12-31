@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_nugget"
+  },
+  "overrides":[ 
+    {"predicate": {"custom_model_data":1}, "model": "custom/ammo"},
+    {"predicate": {"custom_model_data":2}, "model": "custom/rpg_ammo"},
+    {"predicate": {"custom_model_data":101}, "model": "custom_loot/armor_fragment"},
+    {"predicate": {"custom_model_data":102}, "model": "custom_loot/weapon_fragment"}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "custom_loot/thin_rotten_flesh"
+  }
+}

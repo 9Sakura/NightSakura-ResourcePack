@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "minecraft:block/torch"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":201}, "model": "custom/beam"},
+    {"predicate": {"custom_model_data":202}, "model": "custom/beam_up"},
+    {"predicate": {"custom_model_data":203}, "model": "custom/beam_end"}
+
+  ]
+}

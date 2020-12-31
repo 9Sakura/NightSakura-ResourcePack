@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_hoe"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":1}, "model": "custom_item/watergun"},
+
+    {"predicate": {"custom_model_data":101}, "model": "custom/usp45"},
+    {"predicate": {"custom_model_data":103}, "model": "custom/ar15"},
+    {"predicate": {"custom_model_data":104}, "model": "custom/micro_uzi"},
+
+    {"predicate": {"custom_model_data":201}, "model": "custom/p_ninety"},
+    {"predicate": {"custom_model_data":202}, "model": "custom/desert_eagle"},
+    {"predicate": {"custom_model_data":203}, "model": "custom/blackcat"},
+    {"predicate": {"custom_model_data":204}, "model": "custom/whitecat"},
+
+    {"predicate": {"custom_model_data":301}, "model": "custom/akm"},
+    {"predicate": {"custom_model_data":302}, "model": "custom/rpg"},
+    {"predicate": {"custom_model_data":303}, "model": "custom/m4"},
+
+    {"predicate": {"custom_model_data":401}, "model": "custom/m32"},
+    {"predicate": {"custom_model_data":402}, "model": "custom/m32_up"},
+    {"predicate": {"custom_model_data":403}, "model": "custom/m32_end"},
+    {"predicate": {"custom_model_data":404}, "model": "custom/destiny"},
+    {"predicate": {"custom_model_data":405}, "model": "custom/anxi"},
+    {"predicate": {"custom_model_data":406}, "model": "custom/awp"},
+
+    {"predicate": {"custom_model_data":1001}, "model": "custom/usp45_sakura"},
+
+    {"predicate": {"custom_model_data":2001}, "model": "custom/m4_bluelight"},
+
+    {"predicate": {"custom_model_data":3001}, "model": "custom/rpg_lolipop"},
+    {"predicate": {"custom_model_data":3002}, "model": "custom/rpg_rabbit"},
+
+    {"predicate": {"custom_model_data":4001}, "model": "custom/awp_asiimov"}
+  ]
+}

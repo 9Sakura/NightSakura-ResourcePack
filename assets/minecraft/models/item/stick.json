@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":101}, "model": "custom/wand"},
+    {"predicate": {"custom_model_data":102}, "model": "custom/wand_up"},
+    {"predicate": {"custom_model_data":103}, "model": "custom/wand_end"},
+    {"predicate": {"custom_model_data":104}, "model": "custom/fan"},
+
+    {"predicate": {"custom_model_data":201}, "model": "custom/firewand"},
+    {"predicate": {"custom_model_data":202}, "model": "custom/firewand_up"},
+    {"predicate": {"custom_model_data":203}, "model": "custom/firewand_end"},
+    {"predicate": {"custom_model_data":204}, "model": "custom/beamwand"},
+    {"predicate": {"custom_model_data":205}, "model": "custom/beamwand_up"},
+    {"predicate": {"custom_model_data":206}, "model": "custom/beamwand_end"},
+    {"predicate": {"custom_model_data":207}, "model": "custom/grass"},
+
+    {"predicate": {"custom_model_data":301}, "model": "custom/seasakura"},
+    {"predicate": {"custom_model_data":302}, "model": "custom/seasakura_up"},
+    {"predicate": {"custom_model_data":303}, "model": "custom/seasakura_end"},
+    {"predicate": {"custom_model_data":304}, "model": "custom/soulwand"},
+    {"predicate": {"custom_model_data":305}, "model": "custom/soulwand_up"},
+    {"predicate": {"custom_model_data":306}, "model": "custom/soulwand_end"},
+    {"predicate": {"custom_model_data":307}, "model": "custom/lotus"},
+    {"predicate": {"custom_model_data":308}, "model": "custom/lotus_up"},
+    {"predicate": {"custom_model_data":309}, "model": "custom/lotus_end"},
+    {"predicate": {"custom_model_data":310}, "model": "custom/cibei"},
+
+    {"predicate": {"custom_model_data":401}, "model": "custom/unknown_wand"},
+    {"predicate": {"custom_model_data":402}, "model": "custom/unknown_wand_ice"},
+    {"predicate": {"custom_model_data":403}, "model": "custom/unknown_wand_ice2"},
+    {"predicate": {"custom_model_data":404}, "model": "custom/unknown_wand_fire"},
+    {"predicate": {"custom_model_data":405}, "model": "custom/unknown_wand_fire2"},
+    {"predicate": {"custom_model_data":406}, "model": "custom/wind_wings"},
+    {"predicate": {"custom_model_data":407}, "model": "custom/wind_wings_up"},
+    {"predicate": {"custom_model_data":408}, "model": "custom/wind_wings_end"},
+    {"predicate": {"custom_model_data":409}, "model": "custom/yinluren"},
+    {"predicate": {"custom_model_data":410}, "model": "custom/leizi"},
+    {"predicate": {"custom_model_data":411}, "model": "custom/wangchuan"},
+    {"predicate": {"custom_model_data":412}, "model": "custom/yakong"},
+    {"predicate": {"custom_model_data":413}, "model": "custom/shehun"},
+    {"predicate": {"custom_model_data":413}, "model": "custom/mius"},
+
+    {"predicate": {"custom_model_data":1001}, "model": "custom/bolanggu"},
+    {"predicate": {"custom_model_data":1002}, "model": "custom/phantom_killer"}
+  ]
+}

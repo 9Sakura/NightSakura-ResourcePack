@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_shovel"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":301}, "model": "custom/kirisame"},
+    {"predicate": {"custom_model_data":302}, "model": "custom/kirisame_up"},
+    {"predicate": {"custom_model_data":303}, "model": "custom/kirisame_end"},
+    {"predicate": {"custom_model_data":304}, "model": "custom/soulwand"},
+    {"predicate": {"custom_model_data":305}, "model": "custom/soulwand_up"},
+    {"predicate": {"custom_model_data":306}, "model": "custom/soulwand_end"}
+
+  ]
+}

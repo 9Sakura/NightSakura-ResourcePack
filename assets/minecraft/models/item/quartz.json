@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/quartz"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":1}, "model": "custom/pure1"},
+    {"predicate": {"custom_model_data":2}, "model": "custom/pure2"},
+    {"predicate": {"custom_model_data":3}, "model": "custom/pure3"},
+    {"predicate": {"custom_model_data":4}, "model": "custom/pure4"}
+  ]
+}

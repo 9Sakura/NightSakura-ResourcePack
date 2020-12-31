@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/wheat"
+  },
+  "overrides":[
+  {"predicate": {"custom_model_data":101}, "model": "custom_food/ebi_tempura"},
+  {"predicate": {"custom_model_data":102}, "model": "custom_food/misoshiru"},
+  {"predicate": {"custom_model_data":103}, "model": "custom_food/nigiri_salmon"},
+  {"predicate": {"custom_model_data":104}, "model": "custom_food/nigiri_tamago"},
+  {"predicate": {"custom_model_data":105}, "model": "custom_food/taiyaki"},
+  {"predicate": {"custom_model_data":106}, "model": "custom_food/usagi_wagashi"},
+  {"predicate": {"custom_model_data":107}, "model": "custom_food/takoyaki"},
+  {"predicate": {"custom_model_data":108}, "model": "custom_food/budin"},
+  {"predicate": {"custom_model_data":109}, "model": "custom_food/ramen"},
+  {"predicate": {"custom_model_data":110}, "model": "custom_food/fried_potato"},
+  {"predicate": {"custom_model_data":111}, "model": "custom_food/cup_noodle"},
+  {"predicate": {"custom_model_data":112}, "model": "custom_food/small_steamed"},
+  {"predicate": {"custom_model_data":113}, "model": "custom_food/lolipop"},
+  {"predicate": {"custom_model_data":114}, "model": "custom_food/tanghulu"},
+  {"predicate": {"custom_model_data":115}, "model": "custom_food/cake"},
+  {"predicate": {"custom_model_data":116}, "model": "custom_food/huoguo"}
+  ]
+}

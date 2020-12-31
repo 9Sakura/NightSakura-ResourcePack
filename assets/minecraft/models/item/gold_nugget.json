@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/gold_nugget"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":101}, "model": "custom_loot/coin"},
+    {"predicate": {"custom_model_data":102}, "model": "custom_loot/sakura_coin"},
+    {"predicate": {"custom_model_data":103}, "model": "custom_loot/maple_coin"},
+    {"predicate": {"custom_model_data":104}, "model": "custom_item/damour"},
+    {"predicate": {"custom_model_data":105}, "model": "custom_item/birthday"},
+    {"predicate": {"custom_model_data":106}, "model": "custom_item/neko_hairpin"},
+    {"predicate": {"custom_model_data":107}, "model": "custom_item/crystal_ball"},
+
+    {"predicate": {"custom_model_data":1001}, "model": "figure/figure_alan"},
+    {"predicate": {"custom_model_data":1002}, "model": "figure/figure_tenki"},
+    {"predicate": {"custom_model_data":1003}, "model": "figure/figure_miku"},
+    {"predicate": {"custom_model_data":1004}, "model": "figure/figure_nini"},
+    {"predicate": {"custom_model_data":1005}, "model": "figure/figure_liuli"},
+    {"predicate": {"custom_model_data":1006}, "model": "figure/figure_mark"},
+    {"predicate": {"custom_model_data":1007}, "model": "figure/figure_mirai"},
+    {"predicate": {"custom_model_data":1008}, "model": "figure/figure_komg_sheng"},
+    {"predicate": {"custom_model_data":1009}, "model": "figure/figure_terrible"},
+    {"predicate": {"custom_model_data":1010}, "model": "figure/figure_aeleker"},
+    {"predicate": {"custom_model_data":1011}, "model": "figure/figure_chaneas"},
+    {"predicate": {"custom_model_data":1012}, "model": "figure/figure_yebai"},
+    {"predicate": {"custom_model_data":1013}, "model": "figure/figure_read_you"},
+    {"predicate": {"custom_model_data":1014}, "model": "figure/figure_weiwuwei"},
+    {"predicate": {"custom_model_data":1015}, "model": "figure/figure_404"},
+    {"predicate": {"custom_model_data":1016}, "model": "figure/figure_77"},
+    {"predicate": {"custom_model_data":1017}, "model": "figure/figure_kanade"},
+    {"predicate": {"custom_model_data":1018}, "model": "figure/figure_ziye"},
+    {"predicate": {"custom_model_data":1019}, "model": "figure/figure_aeleker_alter"},
+    {"predicate": {"custom_model_data":1020}, "model": "figure/figure_xiu"},
+    {"predicate": {"custom_model_data":1021}, "model": "figure/figure_dotyi"},
+    {"predicate": {"custom_model_data":1022}, "model": "figure/figure_chen"},
+    {"predicate": {"custom_model_data":1023}, "model": "figure/figure_haozi"},
+    {"predicate": {"custom_model_data":1024}, "model": "figure/figure_huaze"},
+    {"predicate": {"custom_model_data":1025}, "model": "figure/figure_alan_new"},
+    {"predicate": {"custom_model_data":1026}, "model": "figure/figure_tenki_new"},
+    {"predicate": {"custom_model_data":1027}, "model": "figure/figure_miku_new"},
+    {"predicate": {"custom_model_data":1028}, "model": "figure/figure_pure"},
+    {"predicate": {"custom_model_data":1029}, "model": "figure/figure_moeling"},
+    {"predicate": {"custom_model_data":1030}, "model": "figure/figure_survivalll"},
+    {"predicate": {"custom_model_data":1031}, "model": "figure/figure_pandafei"},
+    {"predicate": {"custom_model_data":1032}, "model": "figure/figure_gonnmar"},
+    {"predicate": {"custom_model_data":1033}, "model": "figure/figure_helloxin"},
+    {"predicate": {"custom_model_data":1034}, "model": "figure/figure_linglu"},
+
+    {"predicate": {"custom_model_data":2001}, "model": "figure/figure_vanilla"}
+  ]
+}

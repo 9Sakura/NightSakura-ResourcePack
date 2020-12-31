@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/bowl"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data":101}, "model": "custom_food/misoshiru_bowl"},
+    {"predicate": {"custom_model_data":102}, "model": "custom_food/takoyaki_bowl"},
+    {"predicate": {"custom_model_data":103}, "model": "custom_food/budin_bowl"},
+    {"predicate": {"custom_model_data":104}, "model": "custom_food/ramen_bowl"},
+    {"predicate": {"custom_model_data":105}, "model": "custom_food/cup_noodle_bowl"},
+    {"predicate": {"custom_model_data":106}, "model": "custom_food/small_steamed_bowl"},
+    {"predicate": {"custom_model_data":106}, "model": "custom_food/cake_bowl"}
+  ]
+}
